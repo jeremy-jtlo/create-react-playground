@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 // import logo from './logo.svg';
 import './styles/App.css';
-import {Grid, Cell} from 'react-mdl';
+import {Grid, Cell, Layout, Header, Navigation, Drawer, Content} from 'react-mdl';
 
 class App extends Component {
   render() {
@@ -15,13 +15,34 @@ class App extends Component {
       //     To get started, edit <code>src/App.js</code> and save to reload.
       //   </p>
       // </div>
-      <div style={{width: '80%', margin: 'auto'}}>
-        <Grid>
-          <Cell col={4}>NO WAY</Cell>
-          <Cell col={4}>IT</Cell>
-          <Cell col={4}>ACTUALLY WORKED</Cell>
-        </Grid>
+      <div style={{height: '300px', position: 'relative'}}>
+        <Layout fixedHeader>
+          <Header title={<span><span style={{ color: '#ddd' }}>Area / </span><strong>My Frame App</strong></span>}>
+            <Navigation>
+              <a href="#">USFIV</a>
+              <a href="#">SFV</a>
+              <a href="#">Blazblue CF</a>
+            </Navigation>
+          </Header>
+          <Drawer title="Frame Data">
+            <Navigation>
+              <a href="#">Ryu</a>
+              <a href="#">Ken</a>
+              <a href="#">Chun Li</a>
+              <a href="#">Sagat</a>
+            </Navigation>
+          </Drawer>
+        </Layout>
+
+        <Content>
+          <Grid className="demo-grid-1">
+            <Cell col={4}>First column</Cell>
+            <Cell col={4}>Second column</Cell>
+            <Cell col={4}>Third column, I guess</Cell>
+          </Grid>
+        </Content>
       </div>
+      // Currently content needs to be hacked to 80% width to simulate margins. Fix?
     );
   }
 }
