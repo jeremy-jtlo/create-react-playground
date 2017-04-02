@@ -8,7 +8,7 @@ import {Layout, Header, Navigation, Drawer, Content} from 'react-mdl';
 class App extends Component {
   render() {
     return (
-      <div style={{height: '300px', position: 'relative'}}>
+      <div>
         <Layout fixedHeader>
           <Header title={<span><span style={{ color: '#ddd' }}>Weeping Jeremiah / </span><strong>Resume</strong></span>}>
           </Header>
