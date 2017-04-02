@@ -10,14 +10,13 @@ class App extends Component {
     return (
       <div style={{height: '300px', position: 'relative'}}>
         <Layout fixedHeader>
-          <Header title={<span><span style={{ color: '#ddd' }}>Area / </span><strong>My Frame App</strong></span>}>
+          <Header title={<span><span style={{ color: '#ddd' }}>Weeping Jeremiah / </span><strong>Resume</strong></span>}>
           </Header>
-          <Drawer title="Frame Data">
+          <Drawer title="Sections">
             <Navigation>
-              <a href="#">Ryu</a>
-              <a href="#">Ken</a>
-              <a href="#">Chun Li</a>
-              <a href="#">Sagat</a>
+              <a href="#">Work</a>
+              <a href="#">Projects</a>
+              <a href="#">About</a>
             </Navigation>
           </Drawer>
         </Layout>
