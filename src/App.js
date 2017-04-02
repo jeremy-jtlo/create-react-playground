@@ -3,23 +3,15 @@ import React, { Component } from 'react';
 import './styles/App.css';
 import './styles/my-layout.css';
 import DataArea from './components/data-area';
-import {Layout, Header, Navigation, Drawer, Content} from 'react-mdl';
+import SiteHeader from './components/site-header';
+import { Content } from 'react-mdl';
 
 class App extends Component {
   render() {
     return (
       <div>
-        <Layout fixedHeader>
-          <Header title={<span><span style={{ color: '#ddd' }}>Weeping Jeremiah / </span><strong>Resume</strong></span>}>
-          </Header>
-          <Drawer title="Sections">
-            <Navigation>
-              <a href="#">Work</a>
-              <a href="#">Projects</a>
-              <a href="#">About</a>
-            </Navigation>
-          </Drawer>
-        </Layout>
+        
+        <SiteHeader/>
 
         <Content>
           <DataArea />
