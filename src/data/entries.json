@@ -3,16 +3,33 @@
       "id": 1,
       "header": "Electronic Arts Canada",
       "start_date": "June 2016",
-      "end_date": "Current"
+      "end_date": "Current",
+      "bullet_points": [
+        "Coordinated with the Rigging team on the creation, deployment, and continued support of Maya plugins and other software packages used by artists",
+        "Leveraged AGILE principles in the planning and development of internal rigging software to automate tedious tasks including mass mesh weight transfers through the C# Maya API",
+        "Supported artists on the game teams with visual bugs and glitches visible on various assets and animations using Frostbite schematics and Frostbite timeline"
+      ]
     }, {
       "id": 2,
       "header": "Tantalus Systems",
       "start_date": "January 2014",
-      "end_date": "August 2014"
+      "end_date": "August 2014",
+      "bullet_points": [
+        "Discussed, planned, and executed the creation of a web front-end with python Bottle, HTML/CSS, and Javascript to dramatically decrease the setup time in regression testing for server features",
+        "Responded to development team's requests for more thorough build e-mails with a tool written using python's lxml and etree libraries, allowing teams to find failing tests tied to closed JIRA issues",
+        "Met with teammates to sync up on progress and plan out future steps for automation",
+        "Managed Ubuntu and OEL5.8 VMs used as build machines and test environments"
+      ]
     }, {
       "id": 3,
       "header": "BlackBerry Canada (RIM)",
       "start_date": "January 2013",
-      "end_date": "August 2013"
+      "end_date": "August 2013",
+      "bullet_points": [
+        "Oversaw deployment and repeated testing of BES10 servers through Jenkins, Maven, Ant, and VMWare vSphere",
+        "Created, deployed, and re-tooled various scripts used for generating large amounts of XML, preparing files in the build pipeline for new servers, and managing VM snapshots for the production BES testing environment",
+        "Maintained and raised new Windows Server 2008 R2 and Ubuntu 12.04 machines to be used as test environments and build slaves for the Continuous Integration Team, as well as testers in the Mississauga and Seattle teams",
+        "Investigated, installed and reviewed various third-party plugins for Jenkins with a pilot instance before finalizing them on the CI team's production server"
+      ]
     }
 ]
