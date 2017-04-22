@@ -7,19 +7,18 @@ export default class Row extends Component {
         return (
             <Grid className="demo-grid-ruler">
                 <Cell col={8}>
-                    <h3>{this.props.title}</h3>
+                    <h3 className="job-header">{this.props.title}</h3>
                     <h4>{this.props.start_date} - {this.props.end_date}</h4>
                     <UlRender list={this.props.children}/>
                 </Cell>
                 <Cell col={4}>
-                    <Card shadow={0} style={{width: '320px', height: '320px', margin: 'auto'}}>
-                        <CardTitle expand style={{color: '#fff', background: 'url(http://www.getmdl.io/assets/demos/dog.png) bottom right 15% no-repeat #46B6AC'}}>Update</CardTitle>
+                    <Card shadow={0}>
+                        <CardTitle expand style={{color: '#fff', background: 'black'}}>Key Lessons</CardTitle>
                         <CardText>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                        Aenan convallis.
+                        {this.props.key_string}
                         </CardText>
                         <CardActions border>
-                            <Button colored>View Updates</Button>
+                            <Button colored>View on LinkedIn</Button>
                         </CardActions>
                     </Card>
                 </Cell>

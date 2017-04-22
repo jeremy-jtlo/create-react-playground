@@ -1,4 +1,11 @@
 .mdl-layout__content {
+	font-family: "Open Sans", sans-serif;
 	width: 80%;
 	margin: 5rem 10%;
+}
+
+.job-header {
+	font-family: "Open Sans", sans-serif;
+	margin-top: 0;
+	margin-bottom: 0;
 }
