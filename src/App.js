@@ -9,10 +9,10 @@ import { Content } from 'react-mdl';
 class App extends Component {
   render() {
     return (
+      // Add a component row for name/credentials
       <div>
         
         <SiteHeader/>
-
         <Content>
           <DataArea />
         </Content>

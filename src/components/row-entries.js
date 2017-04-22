@@ -4,11 +4,16 @@ import Row from './row.js';
 export default class RowEntries extends Component {
     render() {
         var data = require("../data/entries.json");
-        console.log(data[0]);
+        var rows = []
+        for (var i=0; i<Object.keys(data).length; i++) {
+            rows.push(<Row title={data[i].header}
+                     start_date={data[i].start_date}
+                     end_date={data[i].end_date}>
+                    {data[i].bullet_points}</Row>);
+        }
         return (
             <div>
-                <Row title={data[0].header}>{data[0].bullet_points}</Row>
-                <Row title={data[1].header}>{data[1].bullet_points}</Row>
+                {rows}
             </div>
         );
     }
