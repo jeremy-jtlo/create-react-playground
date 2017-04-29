@@ -3,7 +3,7 @@ import Row from './row.js';
 
 export default class RowEntries extends Component {
     render() {
-        var data = require("../data/entries.json");
+        var data = require("../data/jobs.json");
         var rows = []
         // Push elements based on JSON size
         for (var i=0; i<Object.keys(data).length; i++) {
