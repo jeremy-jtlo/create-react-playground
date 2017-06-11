@@ -1,21 +1,15 @@
 import React, {Component} from 'react';
-import {Grid, Cell, Spacer} from 'react-mdl';
 
 export default class AboutEntry extends Component {
     render () {
         var about_content = require("../data/about.json");
         return (
-            <Grid>
-                <Cell col={6}>
-                    <Spacer/>
-                    <a href="http://placehold.it"><img alt="Placeholder for profile avatar" src="http://placehold.it/300x300"/></a>
-                    <Spacer/>
-                </Cell>
-                <Cell col={6}>
-                    <h2>{about_content.header}</h2>
+            <div className="flex-container">
+                <div className="col-12of12">
+                    <h1>{about_content.header}</h1>
                     <p>{about_content.content}</p>
-                </Cell>
-            </Grid>
+                </div>
+            </div>
         );
     }
 }
