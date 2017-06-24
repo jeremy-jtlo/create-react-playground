@@ -40,6 +40,22 @@
     .flex-container .has-buttons.right {
       padding-right: 0; }
 
+.canvas {
+  width: 75%;
+  margin: 0 auto;
+  margin-top: 4rem;
+  /*max-width: 75%;*/ }
+  .canvas.first {
+    margin-top: 0; }
+
+/* 
+  MEDIA QUERIES -------------------
+*/
+@media (max-width: 73rem) {
+  .canvas {
+    width: 100%;
+    padding: 1rem;
+    margin-top: 2rem; } }
 @media (max-width: 50rem) {
   .flex-container .col-4of12 {
     width: 50%; }
