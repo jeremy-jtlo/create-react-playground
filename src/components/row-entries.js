@@ -28,7 +28,8 @@ export default class RowEntries extends Component {
             var display_time = get_month_duration(start_object, end_object);            
             
             // Create row element
-            rows.push(<Row title={data[i].header}
+            rows.push(<Row company={data[i].header}
+                     job_title={data[i].title}
                      start_date={print_start}
                      end_date={print_end}
                      skills={data[i].hard_skills}
