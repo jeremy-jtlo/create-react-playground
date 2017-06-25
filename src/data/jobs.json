@@ -2,9 +2,15 @@
     {
       "id": 1,
       "header": "Electronic Arts Canada",
+      "title": "Associate Technical Artist",
       "start_date": "2016-06-20",
       "end_date": "Current",
-      "key_string": "Never assume",
+      "hard_skills": [
+        "C#",
+        "Windows Presentation Foundation (WPF)",
+        "Iron Python / FBScript",
+        "Frostbite"
+      ],
       "bullet_points": [
         "Coordinated with the Rigging team on the creation, deployment, and continued support of Maya plugins and other software packages used by artists",
         "Leveraged AGILE principles in the planning and development of internal rigging software to automate tedious tasks including mass mesh weight transfers through the C# Maya API",
@@ -13,9 +19,15 @@
     }, {
       "id": 2,
       "header": "Tantalus Systems",
+      "title": "Test Automation Engineer Co-op",
       "start_date": "2014-01-06",
       "end_date": "2014-08-29",
-      "key_string": "Linux is actually really fun",
+      "hard_skills": [
+        "Python",
+        "Bottle.py",
+        "jQuery",
+        "Citrix Xen"
+      ],
       "bullet_points": [
         "Discussed, planned, and executed the creation of a web front-end with python Bottle, HTML/CSS, and Javascript to dramatically decrease the setup time in regression testing for server features",
         "Responded to development team's requests for more thorough build e-mails with a tool written using python's lxml and etree libraries, allowing teams to find failing tests tied to closed JIRA issues",
@@ -25,9 +37,14 @@
     }, {
       "id": 3,
       "header": "BlackBerry Canada (RIM)",
+      "title": "Software Developer Co-op",
       "start_date": "2013-01-02",
       "end_date": "2013-08-30",
-      "key_string": "Living in another city is hard",
+      "hard_skills": [
+        "VMWare vSphere",
+        "Jenkins",
+        "Ubuntu LTS"
+      ],
       "bullet_points": [
         "Oversaw deployment and repeated testing of BES10 servers through Jenkins, Maven, Ant, and VMWare vSphere",
         "Created, deployed, and re-tooled various scripts used for generating large amounts of XML, preparing files in the build pipeline for new servers, and managing VM snapshots for the production BES testing environment",

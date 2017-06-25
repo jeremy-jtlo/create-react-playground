@@ -20,46 +20,19 @@ export default class RowEntries extends Component {
             var print_start = month_names[start_object.getMonth()] + " " + start_object.getFullYear();
             var print_end = month_names[end_object.getMonth()] + " " + end_object.getFullYear();
 
-            console.log(end_object.getTime());
             if (!end_object.getTime()) {
                 end_object = new Date();
                 print_end = month_names[end_object.getMonth()] + " " + end_object.getFullYear() + " (current)";
             }
 
-            var time_diff = Math.abs(end_object.getTime() - start_object.getTime());
-            var num_days = Math.ceil(time_diff / (1000 * 3600 * 24));
-            var num_months = Math.ceil(num_days / 30);
-            var display_time = 0;
+            var display_time = get_month_duration(start_object, end_object);            
             
-            if (num_months < 1) {
-                display_time = num_days + " days";
-            } else if (num_months < 12){
-                console.log(num_months);
-                display_time = num_months + " months";
-            } else {
-                var excess_months = num_months % 12;
-                var num_years = Math.floor(num_months / 12);
-                var year_string = "";
-                var month_string = "";
-
-                if (num_years === 1) {
-                    year_string = " year and ";
-                } else {
-                    year_string = " year and ";
-                }
-
-                if (excess_months === 1) {
-                    month_string = " month";
-                } else {
-                    month_string = " months";
-                }
-                display_time = num_years + year_string + excess_months + month_string;
-            }
-            
+            // Create row element
             rows.push(<Row title={data[i].header}
                      start_date={print_start}
                      end_date={print_end}
-                     key_string={data[i].key_string}>
+                     skills={data[i].hard_skills}
+                     duration={display_time}>
                     {data[i].bullet_points}</Row>);
             
             // DEBUG
@@ -72,4 +45,39 @@ export default class RowEntries extends Component {
             </div>
         );
     }
+}
+
+function get_month_duration(start, end) {
+
+    var time_diff = Math.abs(end.getTime() - start.getTime());
+    var num_days = Math.ceil(time_diff / (1000 * 3600 * 24));
+    var num_months = Math.ceil(num_days / 30);
+
+    var return_time = 0;
+    
+    if (num_months < 1) {
+        return_time = num_days + " days";
+    } else if (num_months < 12){
+        return_time = num_months + " months";
+    } else {
+        var excess_months = num_months % 12;
+        var num_years = Math.floor(num_months / 12);
+        var year_string = "";
+        var month_string = "";
+
+        if (num_years === 1) {
+            year_string = " year and ";
+        } else {
+            year_string = " year and ";
+        }
+
+        if (excess_months === 1) {
+            month_string = " month";
+        } else {
+            month_string = " months";
+        }
+        return_time = num_years + year_string + excess_months + month_string;
+    }
+
+    return return_time;
 }
