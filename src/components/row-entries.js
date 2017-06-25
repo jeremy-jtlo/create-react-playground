@@ -34,9 +34,6 @@ export default class RowEntries extends Component {
                      skills={data[i].hard_skills}
                      duration={display_time}>
                     {data[i].bullet_points}</Row>);
-            
-            // DEBUG
-            rows.push(<p>{display_time}</p>)
         }
 
         return (
