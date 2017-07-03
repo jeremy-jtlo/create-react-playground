@@ -6,7 +6,7 @@ export default class AboutEntry extends Component {
         return (
             <div className="flex-container">
                 <div className="col-12of12">
-                    <h1>{about_content.header}</h1>
+                    <h1 className="din-head">{about_content.header}</h1>
                     <p>{about_content.content}</p>
                 </div>
             </div>
