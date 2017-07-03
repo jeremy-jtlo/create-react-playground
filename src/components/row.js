@@ -13,8 +13,10 @@ export default class Row extends Component {
         }
         return(
             <div className="flex-container">
-                <div className="col-8of12">
+                <div className="col-12of12">
                     <h2>{this.props.job_title}</h2>
+                </div>
+                <div className="col-8of12">
                     <h3 className="job-header">{this.props.company}</h3>
                     <h4>{this.props.start_date} - {this.props.end_date}</h4>
                     <UlRender list={this.props.children}/>

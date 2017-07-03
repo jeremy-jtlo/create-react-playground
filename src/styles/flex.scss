@@ -1,3 +1,9 @@
+// Each column's items should have some space
+[class*='col-'] > * {
+  margin: 1rem;
+}
+
+// Row Rules
 .flex-container {
   display: flex;
   flex-wrap: wrap;
@@ -76,10 +82,9 @@
 
 // Canvas
 .canvas {
-  width: 75%;
+  width: 85%;
   margin: 0 auto;
   margin-top: 4rem;
-  /*max-width: 75%;*/
 
   &.first {
     margin-top: 0;
@@ -92,8 +97,12 @@
 
 @media(max-width: 73rem) {
   .canvas {
-      width: 100%;
-      margin-top: 2rem;
+    width: 100%;
+    margin-top: 2rem;
+  }
+
+  body {
+    margin: 1.5rem;
   }
 }
 
