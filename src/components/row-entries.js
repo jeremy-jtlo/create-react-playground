@@ -20,6 +20,7 @@ export default class RowEntries extends Component {
             var print_start = month_names[start_object.getMonth()] + " " + start_object.getFullYear();
             var print_end = month_names[end_object.getMonth()] + " " + end_object.getFullYear();
 
+            // Catching the current job
             if (!end_object.getTime()) {
                 end_object = new Date();
                 print_end = month_names[end_object.getMonth()] + " " + end_object.getFullYear() + " (current)";
@@ -27,7 +28,7 @@ export default class RowEntries extends Component {
 
             var display_time = get_month_duration(start_object, end_object);            
             
-            // Create row element
+            // Create job entry
             rows.push(<Row company={data[i].header}
                      job_title={data[i].title}
                      start_date={print_start}
@@ -35,7 +36,7 @@ export default class RowEntries extends Component {
                      skills={data[i].hard_skills}
                      duration={display_time}>
                     {data[i].bullet_points}</Row>);
-        }
+        } // End of loop
 
         return (
             <div>
