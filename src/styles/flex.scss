@@ -1,6 +1,14 @@
+/* 
+  GENERAL FORMATTING -------------------
+*/
+
 // Each column's items should have some space
 [class*='col-'] > * {
   margin: 1rem;
+}
+
+[class*='col-'].center-mobile > * {
+  text-align: left;
 }
 
 // Row Rules
@@ -8,37 +16,6 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  margin-top: 1rem;
-
-  &.center-content {
-    align-items: center;
-  }
-
-  &.first {
-    margin-top: 0rem;
-  }
-
-  &.space-top {
-    margin-top: 3rem;
-  }
-
-  &.space-bottom {
-    margin-bottom: 3rem;
-  }
-
-  &.padded-1 {
-    padding-bottom: 1rem;
-  }
-  &.padded-2 {
-    padding-bottom: 2rem;
-  }
-  &.padded-3 {
-    padding-bottom: 3rem;
-  }
-
-  .side-padded {
-    padding: 0 1rem;
-  }
 
   .col-2of12 {
     width: 16.66%;
@@ -85,10 +62,6 @@
   width: 85%;
   margin: 0 auto;
   margin-top: 4rem;
-
-  &.first {
-    margin-top: 0;
-  }
 }
 
 /* 
@@ -121,37 +94,16 @@
     .col-9of12 {
       width: 100%;
     }
+    .col-4of12 {
+      width: 100%;
+    }
     .col-3of12 {
-      padding-top: 3rem;
       width: 50%;
-
-      &.has-buttons {
-        padding-top: 0;
-
-        &.left {
-          padding-right: 1rem;
-        }
-        &.right {
-          padding-left: 1rem;
-        }
-      }
-
-      ul.right {
-        padding-left: 0;
-      }
     }
+  }
 
-    .has-buttons.right{
-      padding: 0;
-    }
-
-    .has-buttons.left {
-      padding: 0;
-    }
-
-    .empty {
-      display: none;
-    }
+  [class*='col-'].center-mobile > * {
+    text-align: center;
   }
 }
 
@@ -160,20 +112,6 @@
   .flex-container{
     .col-4of12 {
       width: 100%;
-    }
-    .has-buttons {
-      padding: 0;
-      // padding-right: 2rem;
-    }
-    .project-grid {
-      margin-bottom: 3rem;
-      .centered {
-        margin: 0.5rem auto;
-      }
-    }
-  }
-
-  .gallery {
-    margin: 2rem auto;
+    }    
   }
 }

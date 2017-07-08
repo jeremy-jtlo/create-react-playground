@@ -1,27 +1,16 @@
+/* 
+  GENERAL FORMATTING -------------------
+*/
 [class*='col-'] > * {
   margin: 1rem; }
+
+[class*='col-'].center-mobile > * {
+  text-align: left; }
 
 .flex-container {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
-  margin-top: 1rem; }
-  .flex-container.center-content {
-    align-items: center; }
-  .flex-container.first {
-    margin-top: 0rem; }
-  .flex-container.space-top {
-    margin-top: 3rem; }
-  .flex-container.space-bottom {
-    margin-bottom: 3rem; }
-  .flex-container.padded-1 {
-    padding-bottom: 1rem; }
-  .flex-container.padded-2 {
-    padding-bottom: 2rem; }
-  .flex-container.padded-3 {
-    padding-bottom: 3rem; }
-  .flex-container .side-padded {
-    padding: 0 1rem; }
+  justify-content: space-between; }
   .flex-container .col-2of12 {
     width: 16.66%; }
   .flex-container .col-3of12 {
@@ -47,8 +36,6 @@
   width: 85%;
   margin: 0 auto;
   margin-top: 4rem; }
-  .canvas.first {
-    margin-top: 0; }
 
 /* 
   MEDIA QUERIES -------------------
@@ -69,34 +56,15 @@
     width: 100%; }
   .flex-container .col-9of12 {
     width: 100%; }
-  .flex-container .col-3of12 {
-    padding-top: 3rem;
-    width: 50%; }
-    .flex-container .col-3of12.has-buttons {
-      padding-top: 0; }
-      .flex-container .col-3of12.has-buttons.left {
-        padding-right: 1rem; }
-      .flex-container .col-3of12.has-buttons.right {
-        padding-left: 1rem; }
-    .flex-container .col-3of12 ul.right {
-      padding-left: 0; }
-  .flex-container .has-buttons.right {
-    padding: 0; }
-  .flex-container .has-buttons.left {
-    padding: 0; }
-  .flex-container .empty {
-    display: none; } }
-@media (max-width: 32.25rem) {
   .flex-container .col-4of12 {
     width: 100%; }
-  .flex-container .has-buttons {
-    padding: 0; }
-  .flex-container .project-grid {
-    margin-bottom: 3rem; }
-    .flex-container .project-grid .centered {
-      margin: 0.5rem auto; }
+  .flex-container .col-3of12 {
+    width: 50%; }
 
-  .gallery {
-    margin: 2rem auto; } }
+  [class*='col-'].center-mobile > * {
+    text-align: center; } }
+@media (max-width: 32.25rem) {
+  .flex-container .col-4of12 {
+    width: 100%; } }
 
 /*# sourceMappingURL=flex.css.map */
