@@ -44,17 +44,6 @@
   .col-12of12 {
     width: 100%;
   }
-
-  .has-buttons {
-    padding: 0 1rem;
-
-    &.left {
-      padding-left: 0;
-    }
-    &.right {
-      padding-right: 0;
-    }
-  }
 }
 
 // Canvas
@@ -62,6 +51,17 @@
   width: 85%;
   margin: 0 auto;
   margin-top: 4rem;
+}
+
+.flex-container.col-4of12 {
+  align-items: center;
+}
+
+// Button Formatting
+.button.col-4of12 {
+  width: 100%;
+  display: block;
+  padding: 0.5em 0em;
 }
 
 /* 

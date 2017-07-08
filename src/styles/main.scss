@@ -1,7 +1,11 @@
 // GLOBALS
 $primary: #6DCDEC;
-$secondary: #868686;
-$highlight: #FF9311;
+$primary-dark: #0B9FCF;
+$secondary: #CDCDCD;
+$highlight: #FFC970;
+$highlight-dark: #FF9311;
+
+$transition-time: 500ms;
 
 /* ========== Defaults ========== */
 
@@ -23,8 +27,14 @@ h3 {
   font-style: normal;
 }
 
+// Duct-tape fix for icons
+a i.size-16 {
+  margin: 0;
+}
+
 /* ====== Fancy-Ass Classes ====== */
 
+// headers
 .din-head {
   font-family: "DINPro";
   font-weight: normal;
@@ -34,4 +44,29 @@ h3 {
 .primary-header {
   padding-bottom: 1rem;
   border-bottom: 2px solid $primary;
+}
+
+.secondary-header {
+  padding-bottom: 0.5rem;
+  border-bottom: 2px solid $secondary;
+}
+
+// buttons
+.button {
+  font-weight: bold;
+  color: #FFFFFF;
+  text-decoration: none;
+  text-align: center;
+
+  background-color: $primary;
+  border-radius: 0.25em;
+  border-bottom: solid;
+  border-color: $primary-dark;
+
+  transition: $transition-time;
+
+  &:hover, &:focus {
+    background-color: $highlight;
+    border-color: $highlight-dark;
+  }
 }

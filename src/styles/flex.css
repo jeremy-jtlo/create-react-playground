@@ -25,17 +25,19 @@
     width: 75%; }
   .flex-container .col-12of12 {
     width: 100%; }
-  .flex-container .has-buttons {
-    padding: 0 1rem; }
-    .flex-container .has-buttons.left {
-      padding-left: 0; }
-    .flex-container .has-buttons.right {
-      padding-right: 0; }
 
 .canvas {
   width: 85%;
   margin: 0 auto;
   margin-top: 4rem; }
+
+.flex-container.col-4of12 {
+  align-items: center; }
+
+.button.col-4of12 {
+  width: 100%;
+  display: block;
+  padding: 0.5em 0em; }
 
 /* 
   MEDIA QUERIES -------------------

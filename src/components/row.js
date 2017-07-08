@@ -22,9 +22,9 @@ export default class Row extends Component {
                     <UlRender list={this.props.children}/>
                 </div>
                 <div className="col-4of12 center-mobile">
-                    <h3>Skills</h3>
+                    <h3 className="secondary-header">Skills</h3>
                     <p>{skill_string}</p>
-                    <h3>Experience</h3>
+                    <h3 className="secondary-header">Experience</h3>
                     <p><strong>{this.props.duration}</strong></p>
                 </div>
             </div>
