@@ -1,6 +1,10 @@
 {
-    "header":"About Me",
-    "content": "I think there's an artist hidden in the bottom of every single one of us. Trees grow in all kinds of ways. They're not all perfectly straight. Not every limb is perfect. Almost everything is going to happen for you automatically - you don't have to spend any time working or worrying. You don't want to kill all your dark areas they are very important. Just go back and put one little more happy tree in there. We'll have a super time. Everyone needs a friend. Friends are the most valuable things in the world. Isn't it great to do something you can't fail at? If you've been in Alaska less than a year you're a Cheechako. You can spend all day playing with mountains. There isn't a rule. You just practice and find out which way works best for you.",
+    "header":"About",
+    "paragraphs":[
+        "My name is Jeremy, and I'm an alumni of the SFU School of Computing Science. I have experience with a range of tools from my time in university and the work force, but I most enjoy building things with Python, JavaScript, and HTML/CSS. The style of work I'm most accustomed to is AGILE Scrum, as it provides a good rhythm to the work a team does day by day.", 
+        "Though the majority of my studies revolved around software development, I graduated SFU with a minor in the School of Interactive Art and Technology (SIAT). The lessons I learned in their design curriculum have been crucial in helping me build websites with my free time.",
+        "This responsive resume prototype was built using ReactJS and a small bit of styling. It (hopefully) works on devices of all sizes, but because the grid was built from scratch, there may be errors."
+    ],
     "buttons": [
         {
             "string": "LinkedIn",
