@@ -15,14 +15,20 @@ body {
   font-family: 'Open Sans', sans-serif;
 }
 
+h1 {
+  font-size: 2rem;
+  font-weight: normal;
+  font-style: normal;
+}
+
 h2 {
-  font-size: 1.5em;
+  font-size: 1.5rem;
   font-weight: normal;
   font-style: normal;
 }
 
 h3 {
-  font-size: 1.2em;
+  font-size: 1.2rem;
   font-weight: normal;
   font-style: normal;
 }
@@ -60,6 +66,19 @@ a i.size-16 {
 .secondary-header {
   padding-bottom: 0.5rem;
   border-bottom: 2px solid $secondary;
+}
+
+.header_split_right {
+  text-align: right;
+}
+
+.header_split_center {
+  text-align: center;
+}
+
+// This hack kind of sucks
+.header_split_upper_space {
+  margin-top: 2rem;
 }
 
 // buttons

@@ -31,8 +31,7 @@ export default class AboutEntry extends Component {
         return (
             <div className="flex-container">
                 <div className="col-12of12">
-                    <h1 className="din-head primary-header">{about_content.header}</h1>
-                    
+                    <h2 className="din-head primary-header">{about_content.header}</h2>
                 </div>
                 <div className="col-4of12 flex-container">
                     {button_array}
