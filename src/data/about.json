@@ -2,7 +2,6 @@
     "header":"About",
     "paragraphs":[
         "My name is Jeremy, and I'm an alumni of the SFU School of Computing Science. I have experience with a range of tools from my time in university and the work force, but I most enjoy building things with Python, JavaScript, and HTML/CSS. The style of development I'm accustomed to is AGILE Scrum, as it provides a good rhythm to the work a team does day by day.", 
-        "Though the majority of my studies revolved around software development, I graduated SFU with a minor in the School of Interactive Art and Technology (SIAT). The lessons I learned from their design curriculum have been key in helping me build websites with my free time.",
         "This responsive resume prototype was built using ReactJS and a small bit of styling. It (hopefully) works on devices of all sizes, but because the grid was built from scratch, there may be errors."
     ],
     "buttons": [

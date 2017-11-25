@@ -1,10 +1,29 @@
 [
     {
-      "id": 1,
+      "id": 4,
+      "header": "Electronic Arts Canada",
+      "title": "Web Developer - FIFA Ultimate Team Companion App",
+      "start_date": "2017-09-28",
+      "end_date": "Current",
+      "hard_skills": [
+        "JavaScript",
+        "LESS",
+        "Python",
+        "Java"
+      ],
+      "bullet_points": [
+        "Modify and peer review front-end templates using JS/LESS for the FUT Companion App to reduce bugs and enhance user experience",
+        "Cooperate with fellow software developers to review and act on issues found in the Companion App's data pipeline via Python, Java, and NAnt",
+        "Participate in weekly developer roundtables to evaluate existing and potential future workflow or product issues",
+        "Continue to update, escalate, and close user stories through the team's 2-year sprints"
+      ]
+    },
+    {
+      "id": 3,
       "header": "Electronic Arts Canada",
       "title": "Associate Technical Artist",
       "start_date": "2016-06-20",
-      "end_date": "Current",
+      "end_date": "2017-09-27",
       "hard_skills": [
         "C#",
         "Windows Presentation Foundation (WPF)",
@@ -35,7 +54,7 @@
         "Managed Ubuntu and OEL5.8 VMs used as build machines and test environments"
       ]
     }, {
-      "id": 3,
+      "id": 1,
       "header": "BlackBerry Canada (RIM)",
       "title": "Software Developer Co-op",
       "start_date": "2013-01-02",
