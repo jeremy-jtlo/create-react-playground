@@ -34,7 +34,8 @@ export default class RowEntries extends Component {
                      start_date={print_start}
                      end_date={print_end}
                      skills={data[i].hard_skills}
-                     duration={display_time}>
+                     duration={display_time}
+                     links={data[i].links}>
                     {data[i].bullet_points}</Row>);
         } // End of loop
 
@@ -67,7 +68,7 @@ function get_month_duration(start, end) {
         if (num_years === 1) {
             year_string = " year and ";
         } else {
-            year_string = " year and ";
+            year_string = " years and ";
         }
 
         if (excess_months === 1) {

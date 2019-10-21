@@ -49,6 +49,10 @@ a i.size-16 {
 .header_split_center {
   text-align: center; }
 
+ul.job-links {
+  list-style-type: none;
+  margin: 0; }
+
 .header_split_upper_space {
   margin-top: 4rem; }
 

@@ -5,17 +5,36 @@
       "title": "Web Developer - FIFA Ultimate Team Companion App",
       "start_date": "2017-09-28",
       "end_date": "Current",
+      "links": [
+        {
+          "label": "iOS App Store",
+          "href": "https://apps.apple.com/us/app/ea-sports-fifa-20-companion/id1127108818"
+        },
+        {
+          "label": "Google Play",
+          "href": "https://play.google.com/store/apps/details?id=com.ea.gp.fifaultimate&hl=en_US"
+        },
+        {
+          "label": "Web App",
+          "href": "https://www.easports.com/fifa/ultimate-team/web-app/"
+        }
+      ],
       "hard_skills": [
         "JavaScript",
         "LESS",
+        "TypeScript",
         "Python",
-        "Java"
+        "Java",
+        "REST"
       ],
       "bullet_points": [
-        "Modify and peer review front-end templates using JS/LESS for the FUT Companion App to reduce bugs and enhance user experience",
-        "Cooperate with fellow software developers to review and act on issues found in the Companion App's data pipeline via Python, Java, and NAnt",
-        "Participate in weekly developer roundtables to evaluate existing and potential future workflow or product issues",
-        "Continue to update, escalate, and close user stories through the team's 2-week sprints"
+        "Plan, scope, and implement new features for current and future releases of the FIFA Ultimate Team Companion apps (FUT19, FUT20).",
+        "Oversee integration of brand-new 'vanity' items to FUT User Clubs in FIFA20, including API call structure, asset automation, and view construction.",
+        "Take on Live Content responsibilities such as coordinating roll-outs of exclusive timed campaigns for FUT Companions.",
+        "Rewrite legacy tools for parsing app metadata, from older Java and C# to Python.",
+        "Prevent content leaks and reduce build times by exposing and resolving issues in 2D asset pipeline.",
+        "Fix bugs in FIFA Ultimate Team live and future builds.",
+        "Interface with producers, developers, and testers across Live Content, Server, and Console teams. Communicate between Vancouver, Canada and Bucharest, Romania."
       ]
     },
     {
@@ -24,6 +43,7 @@
       "title": "Associate Technical Artist",
       "start_date": "2016-06-20",
       "end_date": "2017-09-27",
+      "links": [],
       "hard_skills": [
         "C#",
         "Windows Presentation Foundation (WPF)",
@@ -31,16 +51,19 @@
         "Frostbite"
       ],
       "bullet_points": [
-        "Coordinated with the Rigging team on the creation, deployment, and continued support of Maya plugins and other software packages used by artists",
-        "Leveraged AGILE principles in the planning and development of internal rigging software to automate tedious tasks including mass mesh weight transfers through the C# Maya API",
-        "Supported artists on the game teams with visual bugs and glitches visible on various assets and animations using Frostbite schematics and Frostbite timeline"
+        "Create, deploy, and support existing Maya plugins and other packages used by artists on Rigging team, in C# and Python.",
+        "Automate mass mesh weight transfers in C# Maya API.",
+        "Leverage AGILE principles to plan and develop internal software for Rigging team.",
+        "Collect and assess feedback on plugins from users.",
+        "Fix visual bugs on assets and animations using node- and timeline-based editors in proprietary Frostbite engine."
       ]
     }, {
       "id": 2,
       "header": "Tantalus Systems",
-      "title": "Test Automation Engineer Co-op",
+      "title": "Test Automation Engineer (Co-op)",
       "start_date": "2014-01-06",
       "end_date": "2014-08-29",
+      "links": [],
       "hard_skills": [
         "Python",
         "Bottle.py",
@@ -48,27 +71,28 @@
         "Citrix Xen"
       ],
       "bullet_points": [
-        "Discussed, planned, and executed the creation of a web front-end with python Bottle, HTML/CSS, and Javascript to dramatically decrease the setup time in regression testing for server features",
-        "Responded to development team's requests for more thorough build e-mails with a tool written using python's lxml and etree libraries, allowing teams to find failing tests tied to closed JIRA issues",
-        "Met with teammates to sync up on progress and plan out future steps for automation",
-        "Managed Ubuntu and OEL5.8 VMs used as build machines and test environments"
+        "Discuss, plan, and execute web front-end features. Leverage Python Bottle, HTML/CSS, and Javascript to dramatically decrease setup time in regression testing of server features.",
+        "At development teams' request, create tool utilizing Python's lxml and etree libraries that composes more thorough build e-mails that identify failed tests tied to closed JIRA issues.",
+        "Meet daily with teammates to sync progress and design future plans for automation.",
+        "Manage Ubuntu and OEL5.8 VMs used as build machines and test environments."
       ]
     }, {
       "id": 1,
       "header": "BlackBerry Canada (RIM)",
-      "title": "Software Developer Co-op",
+      "title": "Software Developer (Co-op)",
       "start_date": "2013-01-02",
       "end_date": "2013-08-30",
+      "links": [],
       "hard_skills": [
         "VMWare vSphere",
         "Jenkins",
         "Ubuntu LTS"
       ],
       "bullet_points": [
-        "Oversaw deployment and repeated testing of BES10 servers through Jenkins, Maven, Ant, and VMWare vSphere",
-        "Created, deployed, and re-tooled various scripts used for generating large amounts of XML, preparing files in the build pipeline for new servers, and managing VM snapshots for the production BES testing environment",
-        "Maintained and raised new Windows Server 2008 R2 and Ubuntu 12.04 machines to be used as test environments and build slaves for the Continuous Integration Team, as well as testers in the Mississauga and Seattle teams",
-        "Investigated, installed and reviewed various third-party plugins for Jenkins with a pilot instance before finalizing them on the CI team's production server"
+        "Oversee deployment and repeated testing of BES10 servers through Jenkins, Maven, Ant, and VMWare vSphere.",
+        "Create, deploy, and re-tool scripts used for generating large amounts of XML. Prepare files in build pipeline for new servers. Manage VM snapshots for production BES testing environment.",
+        "Maintain and raise new Windows Server 2008 R2 and Ubuntu 12.04 machines used as test environments and build slaves for the Continuous Integration Team, including testers in Mississauga and Seattle.",
+        "Investigate, install, and review third-party plugins for Jenkins before deploying to Continuous Integration Team's production server."
       ]
     }
 ]

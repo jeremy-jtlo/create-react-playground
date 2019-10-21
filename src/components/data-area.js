@@ -9,9 +9,9 @@ export default class DataArea extends Component {
       <div className="canvas">
         <HeaderSplitter
           head_class="header_split_right din-head"
-          content="Jeremy's Resume"
+          content="Jeremy Lo"
           sub_title_class="header_split_right"
-          sub_title="BSc Computing Science, Software Developer"
+          sub_title="Software Developer"
         />
         <AboutEntry></AboutEntry>
         <HeaderSplitter 

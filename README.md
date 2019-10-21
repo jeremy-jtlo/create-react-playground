@@ -6,7 +6,8 @@ A resume and personal website created with a few hacked-together ReactJS compone
 
 This project was built using [Create React App](https://github.com/facebookincubator/create-react-app). Definitely took a lot of the confusion out of setting up a new project, and deploying a dev build couldn't be easier.
 
-* `npm start` will start the dev server and open this page in your default browser.
+* `yarn start` will start the dev server and open this page in your default browser.
+* `yarn run build` will produce a build containing the static page.
 
 ## Why, though?
 

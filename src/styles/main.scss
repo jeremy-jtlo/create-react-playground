@@ -76,6 +76,12 @@ a i.size-16 {
   text-align: center;
 }
 
+// Dealing with job link entries
+ul.job-links {
+  list-style-type: none;
+  margin: 0;
+}
+
 // This hack kind of sucks
 .header_split_upper_space {
   margin-top: 4rem;

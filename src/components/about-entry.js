@@ -39,9 +39,14 @@ export default class AboutEntry extends Component {
                 <div className="col-8of12"> 
                     {paragraph_array}
 
-                    <a href="https://github.com/jeremy-jtlo/create-react-playground" target="_blank">
-                    Source code for this site
+                    <a href="http://jeremy-jtlo.github.io/files/NO-ADDRESS_my-resume.pdf" target="_blank">
+                    Download this resume as a PDF.
                     </a>
+                    <br/>
+                    <a href="https://github.com/jeremy-jtlo/create-react-playground" target="_blank">
+                    View source code for this site.
+                    </a>
+                    
                 </div>
             </div>
         );
