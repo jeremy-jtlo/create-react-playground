@@ -3,11 +3,11 @@
 */
 
 // Each column's items should have some space
-[class*='col-'] > * {
+[class*="col-"] > * {
   margin: 1rem;
 }
 
-[class*='col-'].center-mobile > * {
+[class*="col-"].center-mobile > * {
   text-align: left;
 }
 
@@ -67,7 +67,7 @@
   MEDIA QUERIES -------------------
 */
 
-@media(max-width: 73rem) {
+@media (max-width: 73rem) {
   .canvas {
     width: 100%;
     margin-top: 2rem;
@@ -79,8 +79,8 @@
 }
 
 // Max canvas width (Tablet)
-@media(max-width: 50rem) {
-  .flex-container{
+@media (max-width: 50rem) {
+  .flex-container {
     .col-4of12 {
       width: 50%;
     }
@@ -101,16 +101,16 @@
     }
   }
 
-  [class*='col-'].center-mobile > * {
+  [class*="col-"].center-mobile > * {
     text-align: center;
   }
 }
 
 // Phone-ish layout
-@media(max-width: 32.25rem) {
-  .flex-container{
+@media (max-width: 32.25rem) {
+  .flex-container {
     .col-4of12 {
       width: 100%;
-    }    
+    }
   }
 }

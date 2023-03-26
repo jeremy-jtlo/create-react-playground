@@ -1,26 +1,26 @@
 {
-    "header":"About",
-    "paragraphs":[
-        "Hi! I'm Jeremy, and I've been a front end software developer since 2016. I work primarily in Typescript, JS, CSS, and more recently React. I also have a secondary interest in automation via Jenkins and Python.",
-        "Currently, I work at Microsoft Canada, but my previous experience includes Electronic Arts and BlackBerry.",
-        "I am driven to solve problems by improving code maintainability and eliminating tech debt. My ideal work environment is one where I can challenge myself to constantly improve.",
-        "So if you need something built, I build things."
-    ],
-    "buttons": [
-        {
-            "string": "LinkedIn",
-            "link": "https://ca.linkedin.com/in/jeremy-lo-7131017b",
-            "icon": "fi-social-linkedin size-16"
-        },
-        {
-            "string": "Github",
-            "link": "https://github.com/jeremy-jtlo",
-            "icon": "fi-social-github size-16"
-        },
-        {
-            "string": "Email Me",
-            "link": "mailto:jtlo@sfu.ca",
-            "icon": "fi-mail size-16"
-        }
-    ]
+  "header": "About",
+  "paragraphs": [
+    "Hi! I'm Jeremy, and I've been a front end software developer since 2016. I work primarily in Typescript, JS, CSS, and more recently React. I also have a secondary interest in automation via Jenkins and Python.",
+    "Currently, I work at Microsoft Canada, but my previous experience includes Electronic Arts and BlackBerry.",
+    "I am driven to solve problems by improving code maintainability and eliminating tech debt. My ideal work environment is one where I can challenge myself to constantly improve.",
+    "So if you need something built, I build things."
+  ],
+  "buttons": [
+    {
+      "string": "LinkedIn",
+      "link": "https://ca.linkedin.com/in/jeremy-lo-7131017b",
+      "icon": "fi-social-linkedin size-16"
+    },
+    {
+      "string": "Github",
+      "link": "https://github.com/jeremy-jtlo",
+      "icon": "fi-social-github size-16"
+    },
+    {
+      "string": "Email Me",
+      "link": "mailto:jtlo@sfu.ca",
+      "icon": "fi-mail size-16"
+    }
+  ]
 }

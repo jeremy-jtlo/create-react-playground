@@ -1,5 +1,5 @@
-import React, { Component } from 'react';
-import DataArea from './components/data-area';
+import React, { Component } from "react";
+import DataArea from "./components/data-area";
 
 class App extends Component {
   render() {

@@ -1,11 +1,11 @@
-import React, {Component} from 'react';
-import HeaderSplitter from './header-splitter.js';
-import RowEntries from './row-entries.js';
-import AboutEntry from './about-entry.js';
+import React, { Component } from "react";
+import HeaderSplitter from "./header-splitter.js";
+import RowEntries from "./row-entries.js";
+import AboutEntry from "./about-entry.js";
 
 export default class DataArea extends Component {
   render() {
-    return(
+    return (
       <div className="canvas">
         <HeaderSplitter
           head_class="header_split_right din-head"
@@ -14,11 +14,11 @@ export default class DataArea extends Component {
           sub_title="Software Developer"
         />
         <AboutEntry></AboutEntry>
-        <HeaderSplitter 
+        <HeaderSplitter
           head_class="header_split_center din-head"
           content="Work"
         />
-	      <RowEntries></RowEntries>
+        <RowEntries></RowEntries>
       </div>
     );
   }

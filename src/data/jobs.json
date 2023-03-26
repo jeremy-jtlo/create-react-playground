@@ -6,11 +6,7 @@
     "start_date": "2021-05-10",
     "end_date": "Current",
     "links": [],
-    "hard_skills": [
-      "React",
-      "TypeScript",
-      "GraphQL"
-    ],
+    "hard_skills": ["React", "TypeScript", "GraphQL"],
     "bullet_points": [
       "Drive feature development by coordinating with designers, testers, and product managers across multiple timezones",
       "Review, triage, and debug live site issues for Microsoft Teams Rooms (MTR) customers",
