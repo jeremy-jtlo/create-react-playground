@@ -2,9 +2,9 @@
     "header":"About",
     "paragraphs":[
         "Hi! I'm Jeremy Lo. I'm a front end software developer that specializes in JS, CSS, Python, and recently TypeScript. I also have a secondary interest in automation via Jenkins and Python.",
-        "Currently, I work at Electronic Arts, but my previous experience includes Tantalus Systems and BlackBerry. I help our FIFA Companion App designers take their features through every stage, from researching estimates to practical implementation. Because the app regularly pushes updates on Android, iOS, and web, I mantain my team's relationship with the live services group and participate in collaborative bug fixing.",
-        "I am driven to solve problems by improving code maintainability and eliminating tech debt. My ideal work environment is one where I can challenge myself to constantly improve. Right now, I am currently diving into TypeScript.",
-        "So if you need something built, I build things. Like this site, which I built with React and a bit of free time. Thanks for visiting!"
+        "Currently, I work at Microsoft Canada, but my previous experience includes Electronic Arts and BlackBerry.",
+        "I am driven to solve problems by improving code maintainability and eliminating tech debt. My ideal work environment is one where I can challenge myself to constantly improve.",
+        "So if you need something built, I build things."
     ],
     "buttons": [
         {

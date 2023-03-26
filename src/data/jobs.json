@@ -7,13 +7,15 @@
     "end_date": "Current",
     "links": [],
     "hard_skills": [
+      "React",
       "TypeScript",
       "GraphQL"
     ],
     "bullet_points": [
+      "Drive feature development by coordinating with designers, testers, and product managers across multiple timezones",
       "Review, triage, and debug live site issues for Microsoft Teams Rooms (MTR) customers",
-      "Prototype and implement new features for MTR using React",
-      "Create and update unit tests for UI components to prevent unnecessary regressions",
+      "Prototype and implement new features for Meeting Room consoles and front of room displays",
+      "Create and maintain unit tests for UI components to prevent unnecessary regressions",
       "Submit bug fixes to both the next-gen React and legacy Angular codebases for MS Teams"
     ]
   },
