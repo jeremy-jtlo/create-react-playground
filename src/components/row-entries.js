@@ -65,8 +65,7 @@ export default class RowEntries extends Component {
 function get_month_duration(start, end) {
   var time_diff = Math.abs(end.getTime() - start.getTime());
   var num_days = Math.ceil(time_diff / (1000 * 3600 * 24));
-  var num_months = Math.ceil(num_days / 30);
-
+  var num_months = Math.floor(num_days / 30);
   var return_time = 0;
 
   if (num_months < 1) {
@@ -79,13 +78,24 @@ function get_month_duration(start, end) {
     var year_string = "";
     var month_string = "";
 
-    if (num_years === 1) {
-      year_string = " year and ";
+    if (excess_months > 0) {
+      if (num_years === 1) {
+        year_string = " year and ";
+      } else {
+        year_string = " years and ";
+      }
     } else {
-      year_string = " years and ";
+      excess_months = "";
+      if (num_years === 1) {
+        year_string = " year ";
+      } else {
+        year_string = " years ";
+      }
     }
 
-    if (excess_months === 1) {
+    if (excess_months < 1) {
+      month_string = "";
+    } else if (excess_months === 1) {
       month_string = " month";
     } else {
       month_string = " months";

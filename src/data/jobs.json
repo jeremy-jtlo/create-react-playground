@@ -8,11 +8,12 @@
     "links": [],
     "hard_skills": ["React", "TypeScript", "GraphQL"],
     "bullet_points": [
-      "Drive feature development by coordinating with designers, testers, and product managers across multiple timezones",
-      "Review, triage, and debug live site issues for Microsoft Teams Rooms (MTR) customers",
-      "Prototype and implement new features for Meeting Room consoles and front of room displays",
-      "Create and maintain unit tests for UI components to prevent unnecessary regressions",
-      "Submit bug fixes to both the next-gen React and legacy Angular codebases for MS Teams"
+      "Delivered a new chat experience for Microsoft Teams Rooms (MTR) for Teams 2.1",
+      "Conduct code reviews and suggest improvements to reduce redundancy and improve test coverage",
+      "Drive feature development across various timezones by coordinating with designers, testers, and project managers",
+      "Lead refactor effort in an egregious part of legacy UI for mounting MTR view panels",
+      "Create and maintain Jest and Cypress tests to mitigate regressions before submission",
+      "Contributed to existing and new documentation for feature development, migrations, and process changes for newer team members"
     ]
   },
   {
@@ -44,13 +45,12 @@
       "REST"
     ],
     "bullet_points": [
-      "Plan, scope, and implement new features for current and future releases of the FIFA Ultimate Team Companion apps (FUT19, FUT20).",
-      "Oversee integration of brand-new 'vanity' items to FUT User Clubs in FIFA20, including API call structure, asset automation, and view construction.",
-      "Take on Live Content responsibilities such as coordinating roll-outs of exclusive timed campaigns for FUT Companions.",
-      "Rewrite legacy tools for parsing app metadata, from older Java and C# to Python.",
-      "Prevent content leaks and reduce build times by exposing and resolving issues in 2D asset pipeline.",
-      "Fix bugs in FIFA Ultimate Team live and future builds.",
-      "Interface with producers, developers, and testers across Live Content, Server, and Console teams. Communicate between Vancouver, Canada and Bucharest, Romania."
+      "Lead integration of brand‑new ’vanity’ items to FUT Companion App users in FIFA20, including nightly asset builds",
+      "Planned, scoped, and implemented new features for current and future releases of the FIFA Ultimate Team Companion apps (FUT19 ‑ FUT21)",
+      "Managed Live Content responsibilities such as coordinating roll‑outs of exclusive timed campaigns for FUT Companions",
+      "Refactored legacy tools for parsing app metadata to reduce development overhead on CI pipeline",
+      "Prevented content leaks, cut build times by exposing and resolving issues in 2D asset pipeline",
+      "Interfaced with producers, developers, and testers across Live Content, Server, and Console teams in Canada and Romania"
     ]
   },
   {
@@ -83,10 +83,10 @@
     "links": [],
     "hard_skills": ["Python", "Bottle.py", "jQuery", "Citrix Xen"],
     "bullet_points": [
-      "Discuss, plan, and execute web front-end features. Leverage Python Bottle, HTML/CSS, and Javascript to dramatically decrease setup time in regression testing of server features.",
-      "At development teams' request, create tool utilizing Python's lxml and etree libraries that composes more thorough build e-mails that identify failed tests tied to closed JIRA issues.",
-      "Meet daily with teammates to sync progress and design future plans for automation.",
-      "Manage Ubuntu and OEL5.8 VMs used as build machines and test environments."
+      "Reduced setup time in regression testing of server features by automating triage work nightly",
+      "Created tooling with Python lxml and etree to send build e‑mail notifications for high impact tickets",
+      "Met daily with teammates to sync progress and design future plans for automation",
+      "Managed Ubuntu and OEL VMs used as build machines and test environments"
     ]
   },
   {
@@ -98,10 +98,10 @@
     "links": [],
     "hard_skills": ["VMWare vSphere", "Jenkins", "Ubuntu LTS"],
     "bullet_points": [
-      "Oversee deployment and repeated testing of BES10 servers through Jenkins, Maven, Ant, and VMWare vSphere.",
-      "Create, deploy, and re-tool scripts used for generating large amounts of XML. Prepare files in build pipeline for new servers. Manage VM snapshots for production BES testing environment.",
-      "Maintain and raise new Windows Server 2008 R2 and Ubuntu 12.04 machines used as test environments and build slaves for the Continuous Integration Team, including testers in Mississauga and Seattle.",
-      "Investigate, install, and review third-party plugins for Jenkins before deploying to Continuous Integration Team's production server."
+      "Oversaw deployment and automated testing of BES10 servers through Jenkins, Maven, Ant, and VMWare vSphere",
+      "Created, deployed, and re‑tooled scripts used for production and maintenance of build config files",
+      "Managed instances of test host machines using Windows Server and Ubuntu LTS VMs",
+      "Investigated and validated new third‑party plugins for Hudson/Jenkins before deploying to Continuous Integration Team’s production server"
     ]
   }
 ]
