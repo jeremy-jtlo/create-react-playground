@@ -31,7 +31,7 @@ a i.size-16 {
 
 /* ====== Fancy-Ass Classes ====== */
 .din-head {
-  font-family: "DINPro";
+  font-family: "DINPro", "Helvetica", sans-serif;
   font-weight: normal;
   font-style: normal; }
 

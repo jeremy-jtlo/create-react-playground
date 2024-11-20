@@ -1,10 +1,10 @@
 {
   "header": "About",
   "paragraphs": [
-    "Hi! I'm Jeremy, and I've been a front end software developer since 2016. I work primarily in Typescript, JS, CSS, and more recently React. I also have a secondary interest in automation via Jenkins and Python.",
-    "Currently, I work at Microsoft Canada, but my previous experience includes Electronic Arts and BlackBerry.",
-    "I am driven to solve problems by improving code maintainability and eliminating tech debt. My ideal work environment is one where I can challenge myself to constantly improve.",
-    "So if you need something built, I build things."
+    "Front end software engineer looking to continue growing in this industry, wherever that may be.",
+    "I have experience planning, estimating, building, testing, and shipping features end to end - this was my day-to-day both at Microsoft Teams Rooms and the EA FC Companion App.",
+    "As a Software Engineer, my responsibilities include meeting with product managers and feature owners, exchanging feedback with UX designers, coordinating manual+automated test plans with QA, and monitoring releases with both off-the-shelf and bespoke tooling.",
+    "I've worked with React (both functional and legacy), custom Javascript, and C# UI in the past."
   ],
   "buttons": [
     {

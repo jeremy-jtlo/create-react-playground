@@ -8,12 +8,12 @@
     "links": [],
     "hard_skills": ["React", "TypeScript", "GraphQL"],
     "bullet_points": [
+      "Implemented and shipped third‑party calling (Google Meet, Zoom, Webex, etc) via ”Join by ID” on Teams Rooms",
       "Delivered a new chat experience for Microsoft Teams Rooms (MTR) for Teams 2.1",
       "Conduct code reviews and suggest improvements to reduce redundancy and improve test coverage",
       "Drive feature development across various timezones by coordinating with designers, testers, and project managers",
       "Lead refactor effort in an egregious part of legacy UI for mounting MTR view panels",
-      "Create and maintain Jest and Cypress tests to mitigate regressions before submission",
-      "Contributed to existing and new documentation for feature development, migrations, and process changes for newer team members"
+      "Create and maintain Jest and Cypress tests to mitigate regressions before submission"
     ]
   },
   {
