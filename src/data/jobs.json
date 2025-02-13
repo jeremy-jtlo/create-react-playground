@@ -4,12 +4,12 @@
     "header": "Microsoft Vancouver",
     "title": "Software Engineer II - Microsoft Teams",
     "start_date": "2021-05-10",
-    "end_date": "Current",
+    "end_date": "2024-12-10",
     "links": [],
     "hard_skills": ["React", "TypeScript", "GraphQL"],
     "bullet_points": [
-      "Implemented and shipped third‑party calling (Google Meet, Zoom, Webex, etc) via ”Join by ID” on Teams Rooms",
       "Delivered a new chat experience for Microsoft Teams Rooms (MTR) for Teams 2.1",
+      "Implemented and shipped third‑party calling (Google Meet, Zoom, Webex, etc) via ”Join by ID” on Teams Rooms",
       "Conduct code reviews and suggest improvements to reduce redundancy and improve test coverage",
       "Drive feature development across various timezones by coordinating with designers, testers, and project managers",
       "Lead refactor effort in an egregious part of legacy UI for mounting MTR view panels",
@@ -29,7 +29,7 @@
       },
       {
         "label": "Google Play",
-        "href": "https://play.google.com/store/apps/details?id=com.ea.gp.fifamobile"
+        "href": "https://play.google.com/store/apps/details?id=com.ea.gp.fifaultimate"
       },
       {
         "label": "Web App",

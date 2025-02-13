@@ -11,7 +11,7 @@ export default class DataArea extends Component {
           head_class="header_split_right din-head"
           content="Jeremy Lo"
           sub_title_class="header_split_right"
-          sub_title="Software Developer"
+          sub_title="Software Engineer"
         />
         <AboutEntry></AboutEntry>
         <HeaderSplitter
