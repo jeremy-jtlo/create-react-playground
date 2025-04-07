@@ -34,7 +34,7 @@ export default class AboutEntry extends Component {
           {paragraph_array}
 
           <a
-            href="http://jeremy-jtlo.github.io/files/NO-ADDRESS_my-resume.pdf"
+            href="http://jeremy-jtlo.github.io/files/jeremy-resume.pdf"
             target="_blank"
           >
             Download this resume as a PDF.
