@@ -1,5 +1,20 @@
 [
   {
+    "id": 6,
+    "header": "Electronic Arts Canada",
+    "title": "Software Engineer II",
+    "start_date": "2025-08-11",
+    "end_date": "Current",
+    "links": [],
+    "hard_skills": ["React Native", "TypeScript", "Storybook", "Pyton"],
+    "bullet_points": [
+      "Worked with the FC Companions team migrating the legacy Cordova project to React Native",
+      "Conducted feature planning and estimation efforts for FC27 legacy and migratory development",
+      "Automated validation of UI components through Storybook Interaction Testing",
+      "Led investigations with engineering on new optimization opportunities with the new React codebase"
+    ]
+  },
+  {
     "id": 5,
     "header": "Microsoft Vancouver",
     "title": "Software Engineer II - Microsoft Teams",
