@@ -4,26 +4,28 @@ import Button from "./button.js";
 export default class AboutEntry extends Component {
   render() {
     var about_content = require("../data/about.json");
-    var button_array = [];
-    var paragraph_array = [];
+    const buttons = about_content["buttons"];
+    const paragraphs = about_content["paragraphs"];
 
-    // Spawning buttons from JSON
-    for (var i = 0; i < Object.keys(about_content["buttons"]).length; i++) {
-      var current_item = about_content["buttons"][i];
-      button_array.push(
-        <Button
+    const paragraph_array = Object.keys(paragraphs).map(
+      (key) => {
+        return <p>{paragraphs[key]}</p>
+      }
+    );
+
+    // Spawn the 3 buttons in the 'about' section
+    const button_array = Object.keys(buttons).map((key) => {
+      const {link, icon, string} = buttons[key];
+      return (
+        <Button 
           extra_class="col-4of12"
-          link={current_item["link"]}
-          icon={current_item["icon"]}
-          text={current_item["string"]}
+          link={link}
+          icon={icon}
+          text={string}
         />
       );
-    }
+    });
 
-    // Grabbing content paragraphs
-    for (var k = 0; k < Object.keys(about_content["paragraphs"]).length; k++) {
-      paragraph_array.push(<p>{about_content["paragraphs"][k]}</p>);
-    }
     return (
       <div className="flex-container">
         <div className="col-12of12">
