@@ -21,7 +21,8 @@ const RowEntries: React.FC = () => {
 
   const rows = jobs.map((job) => {
     const start_object = new Date(job.start_date);
-    const end_object = job.end_date === "Current" ? new Date() : new Date(job.end_date);
+    const end_object =
+      job.end_date === "Current" ? new Date() : new Date(job.end_date);
 
     const print_start =
       month_names[start_object.getMonth()] + " " + start_object.getFullYear();

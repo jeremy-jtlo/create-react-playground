@@ -12,10 +12,7 @@ const DataArea: React.FC = () => (
       sub_title="Software Engineer"
     />
     <AboutEntry />
-    <HeaderSplitter
-      head_class="header_split_center din-head"
-      content="Work"
-    />
+    <HeaderSplitter head_class="header_split_center din-head" content="Work" />
     <RowEntries />
   </div>
 );

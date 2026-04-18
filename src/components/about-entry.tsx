@@ -8,21 +8,25 @@ const AboutEntry: React.FC = () => {
   const { buttons, paragraphs } = about_content;
 
   // Build the paragraphs
-  const paragraph_array: JSX.Element[] = paragraphs.map((text: string) => <p key={text}>{text}</p>);
+  const paragraph_array: JSX.Element[] = paragraphs.map((text: string) => (
+    <p key={text}>{text}</p>
+  ));
 
   // Spawn the 3 buttons in the 'about' section
-  const button_array: JSX.Element[] = buttons.map((button: { link: string; icon: string; string: string }) => {
-    const { link, icon, string } = button;
-    return (
-      <Button
-        key={string}
-        extra_class="col-4of12"
-        link={link}
-        icon={icon}
-        text={string}
-      />
-    );
-  });
+  const button_array: JSX.Element[] = buttons.map(
+    (button: { link: string; icon: string; string: string }) => {
+      const { link, icon, string } = button;
+      return (
+        <Button
+          key={string}
+          extra_class="col-4of12"
+          link={link}
+          icon={icon}
+          text={string}
+        />
+      );
+    },
+  );
 
   return (
     <div className="flex-container">

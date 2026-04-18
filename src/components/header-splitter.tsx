@@ -7,7 +7,12 @@ interface HeaderSplitterProps {
   sub_title?: string;
 }
 
-const HeaderSplitter: React.FC<HeaderSplitterProps> = ({ head_class, content, sub_title_class, sub_title }) => {
+const HeaderSplitter: React.FC<HeaderSplitterProps> = ({
+  head_class,
+  content,
+  sub_title_class,
+  sub_title,
+}) => {
   const optional_tag = sub_title ? (
     <p className={sub_title_class}>{sub_title}</p>
   ) : null;

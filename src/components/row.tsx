@@ -13,7 +13,16 @@ interface RowProps {
   children: string[];
 }
 
-const Row: React.FC<RowProps> = ({ company, job_title, start_date, end_date, skills, duration, links, children }) => {
+const Row: React.FC<RowProps> = ({
+  company,
+  job_title,
+  start_date,
+  end_date,
+  skills,
+  duration,
+  links,
+  children,
+}) => {
   const build_link_object = (link: Link) => (
     <li key={link.label}>
       <a target="blank" href={link.href}>
