@@ -4,12 +4,14 @@ import Button from "./button.js";
 export default class AboutEntry extends Component {
   render() {
     var about_content = require("../data/about.json");
-    const buttons = about_content["buttons"];
-    const paragraphs = about_content["paragraphs"];
 
-    const paragraph_array = Object.keys(paragraphs).map(
-      (key) => {
-        return <p>{paragraphs[key]}</p>
+    // Get the contents out of the JSON
+    const {buttons, paragraphs} = about_content;
+
+    // Build the paragraphs
+    const paragraph_array = paragraphs.map(
+      (text) => {
+        return <p>{text}</p>
       }
     );
 
