@@ -1,16 +1,17 @@
 import React from "react";
 import Button from "./button";
 import about_content from "../data/about.json";
+import { JSX } from "react";
 
 const AboutEntry: React.FC = () => {
   // Get the contents out of the JSON
   const { buttons, paragraphs } = about_content;
 
   // Build the paragraphs
-  const paragraph_array = paragraphs.map((text) => <p key={text}>{text}</p>);
+  const paragraph_array: JSX.Element[] = paragraphs.map((text: string) => <p key={text}>{text}</p>);
 
   // Spawn the 3 buttons in the 'about' section
-  const button_array = buttons.map((button) => {
+  const button_array: JSX.Element[] = buttons.map((button: { link: string; icon: string; string: string }) => {
     const { link, icon, string } = button;
     return (
       <Button
