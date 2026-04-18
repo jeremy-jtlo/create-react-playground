@@ -1,8 +1,8 @@
 import React from "react";
 import { createRoot } from "react-dom/client";
 import App from "./App";
-import "./styles/main.css";
-import "./styles/flex.css";
+import "./styles/main.scss";
+import "./styles/flex.scss";
 
 const container = document.getElementById("root");
 const root = createRoot(container!);
