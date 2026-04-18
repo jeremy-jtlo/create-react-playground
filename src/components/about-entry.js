@@ -16,8 +16,8 @@ export default class AboutEntry extends Component {
     );
 
     // Spawn the 3 buttons in the 'about' section
-    const button_array = Object.keys(buttons).map((key) => {
-      const {link, icon, string} = buttons[key];
+    const button_array = buttons.map((button) => {
+      const {link, icon, string} = button;
       return (
         <Button 
           extra_class="col-4of12"
